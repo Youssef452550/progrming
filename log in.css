@@ -1,0 +1,77 @@
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(ptrt/side-view-male-hacker-with-gloves-laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 600px;
+    background:transparent;
+    border: 5px solid rgba(133, 123, 123, 0.767);
+    backdrop-filter:blur(30px);
+    box-shadow: 3px 01px 6px 0px;
+    color: rgb(143, 137, 137);
+    border-radius: 20px;
+    padding: 40px 50px 40px 50px;
+}
+.main h1{
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(107, 105, 105);
+    font-weight: 200px;
+}
+.main .btn button{
+    padding:10px 30px ;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+}
+.fac{
+    background-color: rgb(34, 67, 214);
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.goo{
+    background-color: white;
+    box-shadow: 0px 1px 3px 1px gray;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+}
+.input1 input{
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid gray;
+    box-shadow: 0 1px 1px 0 gray;
+    background-color: rgba(175, 170, 170, 0.781);
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.btn2 button{
+    width: 400px;
+    padding: 15px ;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(95, 94, 94);
+    color: white;
+    cursor: pointer;
+}
